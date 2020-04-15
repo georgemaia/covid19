@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap');
+html, body {
+	margin: 0;
+}
+body {
+    background-color:#dddddd;
+	margin:0 3% 0 3%;
+	font-family: 'Baloo Bhaina 2', cursive;
+}
+header,main,footer {
+	margin: 0px;
+}
+header {
+	background-color: #333333;
+	margin: 0px;
+	display: flex;
+	text-align: center;
+	color: #CCC;
+}
+header nav {
+	align-content: center;
+	width: 100%;
+}
+header nav ul li a {
+	text-decoration: none;
+	color: #FF6347;
+}
+header nav ul li a:hover {
+	text-decoration: none;
+	color: #FF2904;
+}
+header nav ul {
+	display: flex;
+	align-items: center;
+	list-style: none;
+	justify-content: space-around;
+}
+main {
+	background-color: #FFF;
+	padding: 3%;
+}
+main article {
+	padding-bottom: 50px;
+}
+main article h1{
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-top-color: tomato;
+	border-right-color: tomato;
+	border-bottom-color: tomato;
+	border-left-color: tomato;
+}
+main article p{
+	text-align: justify;
+}
+.main__img--perfil{
+	border-radius: 100%;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.main--center {
+	text-align: center;
+}
+
+footer {
+	background-color: rgb(51,51,51);
+	margin: 0px;
+	padding: 3%;
+	display: inherit;
+	overflow: auto;
+	color: #CCC;
+}
+footer aside {
+	float: right;
+	clear: left;
+	width: 50%;
+	margin: 0px;
+	box-sizing: inherit;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+}
+footer aside h1 {
+	font-size: 18px;
+	margin: 0px;
+	padding: 0px;
+}
+footer aside a {
+	color: #CCC;
+	text-decoration: none;
+	
+}
